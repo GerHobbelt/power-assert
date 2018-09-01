@@ -17,7 +17,7 @@ var babelOptions = {
     only: /test\/tobe_instrumented/,
     plugins: [
         // set `embedAst` to `false` to test embedded parser
-        ['babel-plugin-espower', { embedAst: false }]
+        ['@gerhobbelt/babel-plugin-espower', { embedAst: false }]
     ]
 };
 
@@ -31,4 +31,4 @@ if (semver.lt(process.version, '8.0.0')) {
     };
 }
 
-require('babel-register')(babelOptions);
+require('@gerhobbelt/babel-register')(babelOptions);

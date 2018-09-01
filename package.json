@@ -58,7 +58,7 @@
   "devDependencies": {
     "@gerhobbelt/babel-cli": "^7.0.0-beta.530006",
     "@gerhobbelt/babel-core": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-espower": "^3.0.0-1",
+    "@gerhobbelt/babel-plugin-espower": "^3.0.0-2",
     "@gerhobbelt/babel-preset-env": "^7.0.0-beta.530006",
     "@gerhobbelt/babel-register": "^7.0.0-beta.530006",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
