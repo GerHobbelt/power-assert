@@ -1,7 +1,7 @@
 {
   "name": "@gerhobbelt/power-assert",
   "description": "Power Assert in JavaScript",
-  "version": "1.6.0-1",
+  "version": "1.6.0-2",
   "author": {
     "name": "Takuto Wada",
     "email": "takuto.wada@gmail.com",
@@ -114,7 +114,7 @@
     "test-browser": "karma start",
     "test-all": "npm run test-unit && npm run test-generated && npm run test-browser",
     "test": "npm run setup && npm run test-all",
-    "preversion": "npm test",
+    "preversion-orig": "npm test",
     "version": "npm run build && git add -A build",
     "pub": "npm publish --access public"
   }
